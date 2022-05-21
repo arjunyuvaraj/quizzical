@@ -1,13 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 50px;
+  font-family: 'Karla', Arial, Helvetica, sans-serif;
+  background-color: #F5F7FB;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  width: 90%;
+}
+
+.yellowBlob {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.blueBlob {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.start--heading {
+  width: 412px;
+  height: 41px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #293264;
+
+}
+
+.start--btn {
+  width: 193px;
+  height: 52px;
+  font-family: 'Karla';
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #F5F7FB;
+}
+
+.check--btn {
+  width: 193px;
+  height: 52px;
+  font-family: 'Karla';
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  color: #F5F7FB;
+}
+
+.start {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form--heading {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.answers {
+  list-style-type: none;
+  margin: 25px 0 0 0;
+  padding: 0;
+  display: flex;
+}
+
+.answers li {
+  float: left;
+  margin: 0 5px 0 0;
+  width: 100px;
+  height: 40px;
+  position: relative;
+}
+
+.answers label,
+.answers input {
+  display: block;
+}
+
+.answers input[type="radio"] {
+  opacity: 0.011;
+  z-index: 100;
+}
+
+.answers input[type="radio"]:checked+label {
+  background: #D6DBF5;
+}
+
+.answers label {
+  box-sizing: border-box;
+  padding: 10px 15px 10px 15px;
+  height: fit-content;
+  margin: 0px 20px 20px 20px;
+  border: 0.794239px solid #4D5B9E;
+  border-radius: 7.94239px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12.24px;
+  line-height: 18px;
+  text-align: center;
+  color: #293264;
+  background-color: inherit;
+}
+
+.answers label:hover {
+  background: #dee2ff
 }
