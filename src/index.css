@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 body {
-  margin: 50px;
+  margin: 0;
   font-family: 'Karla', Arial, Helvetica, sans-serif;
   background-color: #F5F7FB;
 }
@@ -13,6 +13,7 @@ code {
 
 main {
   width: 90%;
+  padding: 50px;
 }
 
 .yellowBlob {
@@ -140,4 +141,23 @@ main {
 
 .answers label:hover {
   background: #dee2ff
+}
+
+h3 {
+
+  float: left;
+  margin-left: 10%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.8px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #293264;
+}
+
+.right {
+  background-color: #94D7A2;
 }

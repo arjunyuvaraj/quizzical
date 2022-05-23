@@ -9,30 +9,26 @@ export default function Question(props) {
                     id={props.answer1}
                     name={props.name}
                     value={props.answer1}
-                    onChange={props.handleChange}
                 />
-                <label htmlFor={props.answer1}>{props.answer1}</label>
+                <label htmlFor={props.answer1} onClick={props.handleChange}>{props.answer1}</label>
                 <input type="radio"
                     id={props.answer2}
                     name={props.name}
                     value={props.answer2}
-                    onChange={props.handleChange}
                 />
-                <label htmlFor={props.answer2}>{props.answer2}</label>
+                <label htmlFor={props.answer2} onClick={props.handleChange}>{props.answer2}</label>
                 <input type="radio"
                     id={props.answer3}
                     name={props.name}
                     value={props.answer3}
-                    onChange={props.handleChange}
                 />
-                <label htmlFor={props.answer3}>{props.answer3}</label>
+                <label htmlFor={props.answer3} onClick={props.handleChange}>{props.answer3}</label>
                 <input type="radio"
                     id={props.answer4}
                     name={props.name}
                     value={props.answer4}
-                    onChange={props.handleChange}
                 />
-                <label htmlFor={props.answer4}>{props.answer4}</label>
+                <label htmlFor={props.answer4} onClick={props.handleChange}>{props.answer4}</label>
             </div>
             <hr />
         </div >
